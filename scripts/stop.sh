@@ -1,5 +1,5 @@
 #!/bin/bash
-exec > >(tee -a /caminho/para/o/diretorio/de/logs/stop.log) 2>&1
+exec > >(tee -a /home/ubuntu/appDeploy/logs/app/stdout/stop.log) 2>&1
 
 
 nomeApp="helloworld-react-lgabriel"
